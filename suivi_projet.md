@@ -1,21 +1,18 @@
 # Journal de bord
 
-(remplacer les items en majuscule)
 
-* TITRE PROJET
-* NOM CHEF DE PROJET
-* NOMS AUTRE MEMBRES EQUIPE
-* DATE DEBUT
+* PROJET-VBOX
+* MOHAMED FTAIMIYA /EVAN URSULET
+* 16/09
 
 
 ## Séance n° 1
 
-* date - heure
-* Travail effectué
-* A faire à la prochaine séance
-* Difficultés rencontrées
-* Remarques sur la séances (membre absent, pbe technique, ...)
-
+Date — heure : 16 septembre 2026 — 14h00
+Travail effectué :Configuration du terminal Git Bash sous Windows et intégration du chemin de VirtualBox dans la variable PATH (export PATH=$PATH:"/c/Program Files/Oracle/VirtualBox").  
+Vérification du bon fonctionnement de la commande CLI VBoxManage --version.Génération d'un couple de clés SSH (ed25519), ajout de la clé publique sur GitHub et validation de l'authentification (ssh -T git@github.com).
+Initialisation du dépôt Git local projet-vbox (git init), bascule sur la branche main et création du fichier usage.md.
+Configuration de l'URL distante GitHub (git remote) pour lier le projet local au dépôt en ligne.  
 
 ## Séance n° 2
 

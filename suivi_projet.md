@@ -13,6 +13,9 @@ Travail effectué :Configuration du terminal Git Bash sous Windows et intégrati
 Vérification du bon fonctionnement de la commande CLI VBoxManage --version.Génération d'un couple de clés SSH (ed25519), ajout de la clé publique sur GitHub et validation de l'authentification (ssh -T git@github.com).
 Initialisation du dépôt Git local projet-vbox (git init), bascule sur la branche main et création du fichier usage.md.
 Configuration de l'URL distante GitHub (git remote) pour lier le projet local au dépôt en ligne.  
+Difficultés rencontrées :
+
+ Message d'erreur Repository not found lors de la première tentative de synchronisation Git. Le problème a été résolu en corrigeant l'URL distante du dépôt avec le nom d'utilisateur GitHub exact.
 
 ## Séance n° 2
 
